@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Board */
+#grid-container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+}
+
+.row:hover .cell {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.cell {
+    background-color: #458ff7;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.circle:hover {
+    cursor: pointer;
+}
+
+/* Arrow */
+.arrow {
+    /* display: none; */
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid black;
+
+    margin: auto;
+}
+
+.row:hover .arrow {
+    visibility: visible;
+    display: block;
+}
+
+/* Buttons */
+#play-again {
+    display: block; /* I have it as displayed so I can see what I am doing */
+    font-size: 15px;
+
+    margin: 20px auto;
+}
