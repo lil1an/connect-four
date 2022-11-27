@@ -1,6 +1,4 @@
 # Fun game of Connect Four
 
-Demo Video
-
-https://user-images.githubusercontent.com/99054048/204150681-dd6611da-a47b-4b60-91e4-d8379ef6f0b2.mp4
+https://user-images.githubusercontent.com/99054048/204153293-001aae26-737f-4a05-be6d-14d5bae84e85.mp4
 
